@@ -27,7 +27,7 @@
                 <label tabindex="0" class="btn btn-ghost btn-circle">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                 </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 p">
+                <ul tabindex="0" class="menu menu-sm dropdown-content right-0 mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 p">
                   <li><a>Home</a></li>
                   <li><a>Abut Us</a></li>
                   <li><a>Shop</a></li>
@@ -60,7 +60,14 @@
 <!-- Bannder section -->
 <div class="carousel w-full mt-14 z-0">
     <div id="slide1" class="carousel-item relative w-full">
-      <img src="/images/banner1.png" class="w-full" />
+      
+      <div class="w-full text-center" style="background-image: url(images/banner1.png);">
+        <div class="mt-10 lg:mt-20">
+          <h3 class="text-3xl lg:text-5xl text-bold text-white">Exotic tastes at your<br>doorstep</h3>
+          <P class="text-gray-200 mt-3 lg:mt-7">We supply highly quality organic products</P>
+          <button class="btn bg-[#F85559] border-none mt-2 lg:mt-5 text-white hover:text-black">Shop Now</button>
+        </div>
+      </div>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#slide4" class="btn btn-circle">❮</a> 
         <a href="#slide2" class="btn btn-circle">❯</a>
@@ -116,30 +123,30 @@
 </div>
  
 </header>
-<main class="lg:mx-24 mx-8 mt-10 ">
+<main class="lg:mx-24 mx-8 mt-5 lg:mt-24 ">
     <!-- deal of the day section -->
     <section>
-      <div class=" lg:flex lg:justify-between">
+      <div class=" lg:flex lg:justify-between lg:items-center lg:mb-12">
         <div class="text-center">
-          <h3 class="text-5xl font-extrabold mb-2">Deal of the day</h3>
+          <h3 class="text-4xl lg:text-5xl font-extrabold mb-2">Deal of the day</h3>
           <p class="text-gray-500 max-w-xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <div class="flex justify-center gap-4">
           <div class="">
-            <h2 class="text-4xl font-extrabold">29</h2>
+            <h2 class="text-3xl lg:text-4xl font-extrabold">29</h2>
             <p class="text-gray-500">Days</p>
           </div>
           
           <div class="">
-            <h2 class="text-4xl font-extrabold">15</h2>
+            <h2 class="text-3xl lg:text-4xl font-extrabold">15</h2>
             <p class="text-gray-500">Hours</p>
           </div>
           <div class="">
-            <h2 class="text-4xl font-extrabold">25</h2>
+            <h2 class="text-3xl lg:text-4xl font-extrabold">25</h2>
             <p class="text-gray-500">Minutes</p>
           </div>
           <div class="">
-            <h2 class="text-4xl font-extrabold">08</h2>
+            <h2 class="text-3xl lg:text-4xl font-extrabold">08</h2>
             <p class="text-gray-500">Seconds</p>
           </div>
         </div>
@@ -334,14 +341,14 @@
             </div>
           </div>
     </div>
-    <div class="text-center my-10">
+    <div class="text-center mt-16">
         <button class="btn bg-[#F85559]">Shop All</button>
     </div>
   </section>
 
   <!-- Meet the team section -->
   <section>
-    <div class="hero"  style="background-image: url(images/team.png);">
+    <div class="hero mt-24"  style="background-image: url(images/team.png);">
       <div class="hero-overlay bg-black bg-opacity-60"></div>
       <div class="hero-content text-center text-neutral-content">
         <div class="">
@@ -398,9 +405,9 @@
 
   <!-- Why Choose Us section -->
   <section>
-    <div class="mt-10">
-    <div class="text-center mb-5 space-y-2">
-      <h3 class="text-4xl font-bold">Why Choose Us</h3>
+    <div class="mt-10 lg:mt-24">
+    <div class="text-center mb-12 space-y-2">
+      <h3 class="text-3xl lg:text-5xl font-extrabold">Why Choose Us</h3>
       <p class="text-gray-600 lg:px-40">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
     </div>
     <div>
@@ -470,7 +477,7 @@
   </section>
 
 </main>
-<footer class="p-10 bg-[#121212]  mt-32">
+<footer class="p-10 bg-[#121212] mt-10 lg:mt-32">
   <div class="flex flex-col items-center">
     <div class="flex items-center">
       <img src="images/logo.png" alt="">
